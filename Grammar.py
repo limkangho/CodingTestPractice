@@ -52,5 +52,20 @@ print("값이 1인 데이터 삭제: ", d)
 e = [1, 2, 3, 4, 5, 5, 5]
 remove_set = {3, 5}
 result = [i for i in e if i not in remove_set]
-print(result)
+print("result: ", result)
 
+data = 'Hello World'
+print("data: ", data)
+
+data = "Dont you know \"Python\"?"
+print("data: ", data)
+
+f = "Hello"
+g = "World"
+print("f + g: ", f + " " + g)
+
+h = "String"
+print(h * 3)
+
+i = "ABCDEF"
+print(h[2:4])
